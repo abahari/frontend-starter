@@ -1,0 +1,44 @@
+{
+  "globals": {
+    "define"  : false,
+    "require" : false,
+    "_"       : false,
+    "google"  : false,
+    "jQuery"  : false,
+    "module": false
+  },
+
+  "predef": [
+    "require",
+    "define",
+    "DocumentTouch"
+  ],
+
+  "es3"       : true,
+  "esnext"    : false,
+  "strict"    : true,
+  "evil"      : false,
+  "latedef"   : true,
+  "undef"     : true,
+  "devel"     : false,
+  "debug"     : false,
+  "node"      : false,
+  "browser"   : true,
+  "bitwise"   : true,
+  "camelcase" : false, // because WS return properties without camelcase
+  "curly"     : true,
+  "eqeqeq"    : true,
+  "eqnull"    : true,
+  "immed"     : true,
+  "indent"    : 2,
+  "smarttabs" : false,
+  "unused"    : true,
+  "newcap"    : true,
+  "noarg"     : true,
+  "quotmark"  : "single",
+  "trailing"  : true,
+  "nonbsp"    : true,
+  "noempty"   : true,
+  "forin"     : true,
+  "browserify": true
+}

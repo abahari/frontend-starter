@@ -1,0 +1,33 @@
+{
+  "name": "frontendStarter",
+  "version": "0.0.1",
+  "description": "A project to showcase frontend workflow",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abahari/frontend-starter"
+  },
+  "author": "Aissam BAHARI",
+  "devDependencies": {
+    "extend": "^3.0.0",
+    "gulp": "*",
+    "gulp-browserify": "*",
+    "gulp-concat": "*",
+    "gulp-connect": "*",
+    "gulp-if": "*",
+    "gulp-imagemin": "*",
+    "gulp-inject": "^3.0.0",
+    "gulp-jshint": "^1.11.0",
+    "gulp-markdown-docs": "^0.1.5",
+    "gulp-sass": "^2.1.0",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "imagemin-pngcrush": "*",
+    "jquery": "*",
+    "minimist": "^1.2.0",
+    "mustache": "*",
+    "run-sequence": "^1.1.5"
+  },
+  "dependencies": {
+    "support-for": "^1.0.0"
+  }
+}

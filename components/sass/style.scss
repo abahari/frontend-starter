@@ -1,0 +1,14 @@
+// style.scss
+// ==============
+ 
+// reset CSS
+@import "normalize";
+
+ //Core partials
+@import "variables";
+@import "mixins";
+@import "base";
+@import "modules";
+ 
+
+// JS partials
