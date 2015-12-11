@@ -8,6 +8,7 @@
   },
   "author": "Aissam BAHARI",
   "devDependencies": {
+    "browser-sync": "^2.10.0",
     "extend": "^3.0.0",
     "gulp": "*",
     "gulp-browserify": "*",
@@ -16,6 +17,7 @@
     "gulp-if": "*",
     "gulp-imagemin": "*",
     "gulp-inject": "^3.0.0",
+    "gulp-jade": "^1.1.0",
     "gulp-jshint": "^1.11.0",
     "gulp-markdown-docs": "^0.1.5",
     "gulp-sass": "^2.1.0",

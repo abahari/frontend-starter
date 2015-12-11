@@ -1,24 +1,32 @@
 (function () {
 	'use strict';
+	var $ = require('./libs/jquery-1.11.3');
 
-	var Counter = require('./increment');
-    var mycounter = new Counter();
-    var mycounter2 = new Counter();
-	
-	console.log(mycounter.increment()); 
-	console.log(mycounter.increment()); 
-	console.log(mycounter.increment()); 
-	console.log(mycounter.increment()); 
-	console.log(mycounter.increment()); 
-	console.log(mycounter.increment()); 
-	console.log(mycounter2.increment()); 
-	console.log(mycounter2.increment());  
-	console.log(mycounter2.increment()); 
-	console.log(mycounter2.increment()); 
-	console.log(mycounter2.increment()); 
-	console.log(mycounter2.increment());
-	console.log('it correct');
-	
-	
+		//modules = require('./main');
+
+    var x = new (require('./modules/increment'))();
+
+
+    x.init();
+
+
+    /*var mycounter = new Counter();
+    var mycounter2 = new Counter();*/
+	function initApp () {
+	 // require('./increment')($);
+		$.each(modules.module, function(i, module) {
+			// 	var modulesRequire = require(module.main)($);
+			require(__dirname + module).init();
+
+		});
+	}
+
+
+
+	$(function (){
+		//initApp();
+	})
+
+
 
 })();
